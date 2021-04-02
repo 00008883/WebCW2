@@ -1,0 +1,26 @@
+{
+  "name": "hr-application",
+  "version": "1.0.0",
+  "description": "For coursework 2",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/00008883/WebCW2.git"
+  },
+  "keywords": [
+    "HR"
+  ],
+  "author": "00008883",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/00008883/WebCW2/issues"
+  },
+  "homepage": "https://github.com/00008883/WebCW2#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}
