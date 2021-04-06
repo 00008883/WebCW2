@@ -34,13 +34,13 @@ nav
     .line
     
 
-section.contact
+section.applicant
   .content
     h2 Application
   .container
     #error
-    .contactForm
-      form#userForm(action='#' onsubmit='return Validation()')
+    .applicantForm
+      form#userForm(action='#' onsubmit='return Validation()' method='post' enctype="multipart/form-data")
         h2 Application Form
         .inputBox
           input(type='text' name='Name' placeholder='Your name')
@@ -57,10 +57,10 @@ section.contact
             option(value='sales.assistant') Sales assistant
         .inputBox
           label(for='files') Select your Resume
-          input(type='file' multiple='')
+          input(type='file' multiple='' name='file')
           span
         .inputBox
-          input(type='submit' name='' value='Send')
+          input(type='submit' value='Apply')
 
 footer.footer
   .footer-left

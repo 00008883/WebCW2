@@ -33,20 +33,16 @@ nav
     .line
     .line
 
-header.header.container
-  .fullscreen-photo-wrap
-    img(src='/images/careers.jpg')
-  .header-overlay
-  .header-content
-    h1
-      strong F
-      | ind 
-      strong Y
-      | our 
-      strong C
-      | areer
-    p There is always a place for you
-    a.btn(href='/applicants/apply') Apply
+section 
+  h2 All Employees
+
+  ul.applicants-list
+    each applicant in applicants
+      li
+        a(href="/applicants/" + applicant.id)= applicant.name
+
+        a(href="/applicants/" + applicant.id + "/delete").delete Delete
+
 
 
 footer.footer
@@ -74,4 +70,4 @@ footer.footer
           a(href='https://twitter.com/' target='_blank') Twitter
   .footer-bottom
     p
-      | This website was created to fulfill Web Technology module&rsquo;s requirements and does not represent an actual company or service &copy; 00008883  2021  
+      | This website was created to fulfill Web Technology module&rsquo;s requirements and does not represent an actual company or service &copy; 00008883  2021    

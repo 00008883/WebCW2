@@ -13,7 +13,7 @@ body {
 
 
 
-.contact{
+.applicant{
     position: relative;
     min-height: 100vh;
     padding: 90px 100px;
@@ -21,13 +21,13 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #B1FFFD;
+    background: #DCE1E3;
 }
-.contact .content{
+.applicant .content{
     min-width: 800px;
     text-align: center;
 }
-.contact .content h2{
+.applicant .content h2{
     font-size: 36px;
     font-weight: 500;
     color: #000000;
@@ -40,18 +40,18 @@ body {
     align-items: center;
     margin-top: 0;
 }
-.container .contactInfo{
+.container .applicantInfo{
     width: 50%;
     display: flex;
     flex-direction: column;
 }
 
-.container .contactInfo .box{
+.container .applicantInfo .box{
     position: relative;
     padding: 5px 0;
     display: flex;
 }
-.container .contactInfo .box .icon{
+.container .applicantInfo .box .icon{
     min-width: 60px;
     height: 60px;
     display: flex;
@@ -59,38 +59,38 @@ body {
     align-items: center;
     border-radius: 50%;
 }
-.container .contactInfo .box .text{
+.container .applicantInfo .box .text{
     display: flex;
     margin-left: 20px;
     font-size: 16px;
     flex-direction: column;
     color:  #fff;
 }
-.container .contactInfo .box .text a{
+.container .applicantInfo .box .text a{
     text-decoration: none;
     color: rgb(199, 255, 213);
 }
-.container .contactInfo .box .text h3{
+.container .applicantInfo .box .text h3{
     color: rgb(255, 232, 23);
 }
-.contactForm{
+.applicantForm{
     width: 40%;
     padding: 20px 50px;
     background-color: #fff;
     margin-top: 20px;
 }
-.contactForm h2{
+.applicantForm h2{
     font-size: 30px;
     color: #333;
 }
-.contactForm .inputBox{
+.applicantForm .inputBox{
     position: relative;
     width: 100%;
     margin-top: 10px;
 }
-.contactForm .inputBox input,
-.contactForm .inputBox textarea,
-.contactForm .inputBox select[name="options"]{
+.applicantForm .inputBox input,
+.applicantForm .inputBox textarea,
+.applicantForm .inputBox select[name="options"]{
     width: 100%;
     height: 40px;
     padding: 5px 0;
@@ -101,10 +101,10 @@ body {
     outline: none;
     resize: none;
 }
-.contactForm .inputBox textarea{
+.applicantForm .inputBox textarea{
     height: 100px;
 }
-.contactForm .inputBox span{
+.applicantForm .inputBox span{
     position: absolute;
     left: 0;
     padding: 10px;
@@ -118,7 +118,7 @@ body {
 
 
 
-.contactForm .inputBox input[type="submit"]{
+.applicantForm .inputBox input[type="submit"]{
     width: 100px;
     background:  #f3881e;  
     color: #fff;
@@ -128,23 +128,23 @@ body {
     font-size: 18px;
 }
 @media (max-width: 991px){
-    .contact{
+    .applicant{
         padding: 50px;
     }
     .container{
         flex-direction: column;
     }
-    .container .contactInfo{
+    .container .applicantInfo{
         margin-top: 40px;
         margin-bottom: 40px;
     }
-    .container .contactInfo, .contactForm{
+    .container .applicantInfo, .applicantForm{
         width: 100%;
     }
-    .contact .content{
+    .applicant .content{
         min-width: 300px;
     }
-    .contact{
+    .applicant{
         padding: 90px 0;
     }
     .content{

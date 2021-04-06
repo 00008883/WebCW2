@@ -33,6 +33,15 @@ nav
     .line
     .line
 
+section 
+  h2 All Applicants
+
+  ul.applicants-list
+    each applicant, index in applicants
+      li
+        a(href="/applicants/" + applicant.id)= applicant.name
+
+        a(href="/applicants/" + applicant.id + "/delete").delete Delete
 
 
 
