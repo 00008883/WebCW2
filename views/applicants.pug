@@ -1,0 +1,64 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title AGT HR
+  link(href='https://fonts.googleapis.com/css2?family=Amiko:wght@600&display=swap' rel='stylesheet')
+  link(rel='stylesheet' type='text/css'  href='/styles/navbar.css')
+  link(rel='stylesheet' type='text/css'  href='/styles/main.css')
+  link(rel='stylesheet' type='text/css'  href='/styles/footer.css')
+
+nav
+  input#nav-toggle(type='checkbox')
+  .logo
+    a(href='/')
+      img(src='/images/Logo1.png' alt='')
+    strong
+      | Advanced 
+      br
+      |  Gaming 
+      br
+      |  Technology
+  ul.links
+    li
+      a(href='/') Home
+    li
+      a(href='/applicants/apply') Apply
+    li
+      a(href='/applicants') Applicants
+    li
+      a(href='/employees') Employees
+  label.icon-burger(for='nav-toggle')
+    .line
+    .line
+    .line
+
+
+
+
+footer.footer
+  .footer-left
+    img(src='/images/Logo2.1.png' alt='')
+    p  Advanced Gaming Technology
+  ul.footer-right
+    li
+      h2 Useful Links
+      ul
+        li
+          a(href='/applicants/apply') Apply
+        li
+          a(href='/applicants') Applicants
+        li
+          a(href='/employees') Employees
+    li
+      h2 Social Media
+      ul
+        li
+          a(href='https://www.facebook.com/' target='_blank') Facebook
+        li
+          a(href='https://www.instagram.com/' target='_blank') Instagram
+        li
+          a(href='https://twitter.com/' target='_blank') Twitter
+  .footer-bottom
+    p
+      | This website was created to fulfill Web Technology module&rsquo;s requirements and does not represent an actual company or service &copy; 00008883  2021    
