@@ -34,14 +34,14 @@ nav
     .line
 
 section 
-  h2 Applicant
+  h1 Applicant Information
 
-  h1
+  h2
     span= applicant.name
-    a(href="/applicants/" + applicant.id + "/employee").employee Employee
   p= applicant.email
     p= applicant.jobtype 
     p= applicant.file
+    a(href="/applicants/" + applicant.id + "/employee").employee Employee
 
 
 

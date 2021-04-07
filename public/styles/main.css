@@ -104,6 +104,8 @@ ul.applicants-list li {
 ul.applicants-list li a{
     text-decoration: none;
     color: #000;
+    background: none;
+    font-size: 17px;
 }
 ul.applicants-list li:hover {
 	background-color: #eee;
@@ -112,7 +114,27 @@ ul.applicants-list li:hover {
 ul.applicants-list li .delete {
 	float: right;
 	color: white;
-	background-color: red;
-	padding: 3px 10px;
+	background-color: #f3881e;
+	padding: 10px 25px;
 	text-decoration: none;
+    margin-top: 5px;
+}
+
+section a{
+    text-decoration: none;
+    color: #fff;
+    background: #f3881e;
+    padding: 15px 25px;
+    display: inline-block;
+}
+section h1{
+    border-bottom: 2px solid #f3881e;
+    font-size: 30px;
+    text-align: center;
+}
+section h2{
+    font-size: 27px;
+}
+section p{
+    font-size: 20px;
 }
