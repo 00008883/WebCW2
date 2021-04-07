@@ -6,7 +6,11 @@ This application is developed for HR team, by using this app, applicants may lea
 
 ## Links
 Link to [Github](https://github.com/00008883/WebCW2)
-Link to [Glitch](https://github.com/00008883/WebCW2)
+Link to [Glitch](https://hr-application.glitch.me/)
+
+If not working try this:
+https://github.com/00008883/WebCW2.git
+https://hr-application.glitch.me/
 
 
 ## Features
